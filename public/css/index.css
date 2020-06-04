@@ -1,0 +1,126 @@
+body, html{
+  padding: 0;
+  margin: 0;
+}
+
+.nav{
+  background-color: #f3c4be;
+}
+
+a, a:hover{
+  text-decoration: none;
+}
+.container-fluid{
+  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.separator{
+  height: 3px;
+  width: 5%;
+  border: none;
+  box-shadow: none;
+  background-color: #f3c4be;
+}
+
+.souligner{
+  text-decoration: underline;
+}
+
+#center{
+  text-align: center;
+}
+
+/*Banière*/
+.ban{
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.banner{
+  width: 100%;
+  max-width: 100%;
+
+} .ban img{
+  width: 100%;
+  max-width: 100%;
+}
+
+.inner-banner{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.inner-banner h1{
+  text-shadow: 1px 1px 5px #000000;
+  font-size: 400%;
+}
+
+
+/*A propos*/
+.sti, .sio{
+  margin-top: 45px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about{
+  
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background-color: #EBEBEB;
+}
+
+.apm{
+  margin-bottom: 5%;
+}
+
+.mpp{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+
+.about h2{
+  text-align: center;
+}
+
+#projet{
+  margin-bottom: 3%;
+}
+
+.inner-about{
+  background-color: #f3c4be;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  
+}
+
+/*Contact*/
+.mc{
+  margin-bottom: 8%;
+}
+.contact{
+  padding-top: 5%;
+  color: #EBEBEB;
+}
+.footer{
+  
+  background-color: #211239;
+}
+
+
+
+.source{
+  padding-top: 10%;
+  
+  margin-right: auto;
+  margin-left: auto;
+}
+

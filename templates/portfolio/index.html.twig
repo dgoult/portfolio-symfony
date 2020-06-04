@@ -1,0 +1,114 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Portfolio
+{% endblock %}
+
+{% block body %}
+	<!-- Banière -->
+	<section class="container-fluid banner">
+		<div class="ban">
+			<img src="img/banner.jpg" alt="">
+		</div>
+		<div class="inner-banner">
+			<h1 class="text-banner">Bienvenue sur mon portfolio</h1>
+		</div>
+	</section>
+	<!-- Banière Fin -->
+
+	<!-- à propos -->
+
+	<section class="container-fluid about">
+		<h2 id="center">À propos de moi</h2>
+		<hr class="separator apm">
+		<div class="container inner-about">
+			<h2 id="projet" class="souligner">Mon projet professionel</h2>
+			<div class="row">
+
+				<article class="col-sm-4 col-lg-4 col-xs-12 col-sm-12 mpp">
+
+					<h3>Bachelor Responsable de Projet Informatique</h3>
+					<hr>
+					<p>Cette formation me formera à la conduite de projets en technologies des systèmes et réseaux, bases de données, outils et langages de développement,
+					Elle couvre les principaux domaines de l'informatique, réseaux et conduite de projets me permettant d'assurer la production, 
+					l'exploitation et la maintenance des moyens informatiques.</p>
+				</article>
+			</div>
+			<h2 id="parcours" class="souligner">Mon parcours</h2>
+			<div class="row">
+				<article class="col-sm-4 col-lg-4 col-xs-12 col-sm-12 sio">
+
+					<h3>BTS SIO</h3>
+					<hr>
+					<p>BTS - Services Informatique aux Organisations.
+            Option SLAM Solutions Logiciels et Applications Métiers.
+						Au sein de l'institut Limayrac à TOULOUSE</p>
+					<hr>
+					<p>-2019/2021-</p>
+				</article>
+				<article class="col-sm-4 col-lg-4 col-xs-12 col-sm-12 sti">
+
+					<h3>BAC STI2D</h3>
+					<hr>
+					<p>STI2D - Science Technologique de l’Industrie et du Développement Durable.
+					  Option SIN Système d'Information et Numérique.
+					  Au sein du Lycée Gaston Monnerville à KOUROU</p>
+					<hr>
+					<p>- 2017/2019 -</p>
+				</article>
+			</div>
+		</div>
+	</section>
+	<!-- à propos Fin -->
+
+
+	<!-- footer/contact -->
+	<footer class="container-fluid footer">
+		<h2 id="center" class="contact">Me contacter</h2>
+		<hr class="separator mc">
+		<div class="container contfoot">
+			<div class="row">
+				<div class="col-sm-4">
+					<h3 class="contact">Contactez moi !</h3>
+					<hr>
+					<address>
+						<strong class="contact">Email:</strong>
+						<p class="contact">
+							<a href="mailto:#">
+								dylan.goult@limayrac.fr</a>
+						</p>
+						<br>
+						<strong class="contact">Phone:</strong>
+						<p class="contact">07 85 58 53 03</p>
+					</address>
+				</div>
+				<div class="col-sm-8 contact-form">
+					<form id="contact" method="post" class="form" role="form">
+						<div class="row">
+							<div class="col-xs-6 col-md-6 form-group">
+								<input class="form-control" id="name" name="name" placeholder="Nom" type="text" required/>
+							</div>
+							<div class="col-xs-6 col-md-6 form-group">
+								<input class="form-control" id="email" name="email" placeholder="Email" type="email" required/>
+							</div>
+						</div>
+						<textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+						<br/>
+						<div class="row">
+							<div class="col-xs-12 col-md-12 form-group">
+								<button class="btn btn-primary pull-right" type="submit">Envoyer</button>
+							</div>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</div>
+    <div class="row">
+    <a class="source" href="http://www.freepik.com">Images Designed by natalka_dmitrova / Freepik</a>
+    </div>
+		
+	</footer>
+	<!-- footer/contact Fin -->
+
+
+{% endblock %}
